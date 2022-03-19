@@ -44,7 +44,8 @@ h1 {
     color: rgb(39, 39, 39);
 }
 .main-nav a:hover{
-    color: rgb(167, 166, 166);
+    color: rgb(97, 97, 97);
+    font-size: 110%;
 }
 .page-header{
     display: flex;
@@ -85,12 +86,18 @@ h1 {
 #about .box{
     padding: 0 1%;
 }
+
 /*Join*/
 #join .wrapper{
     max-width: 11000px;
     margin: 0 auto;
     padding: 1% 12%;
     background-color: blanchedalmond;
+}
+
+/*Contact*/
+#contact h3{
+    padding: 0 12%;
 }
 
 /*Footer*/
