@@ -107,6 +107,9 @@ h1 {
     background-color: blanchedalmond;
     display: flex;
 }
+#join .box{
+    padding: 1% 0;
+}
 #join h5 {
     padding: 0 3%;
 }
