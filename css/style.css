@@ -25,6 +25,18 @@ h1 {
     text-align: center;
     padding: 1% 0;
 }
+.button {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.375rem;
+    color: aliceblue;
+    background-color: lightcoral;
+    border-radius: 15px;
+    padding: 12px 12px;
+}
+.button:hover{
+    color: black;
+    background-color: aliceblue;
+}
 
 /*Header 页首*/
 .logo {
@@ -84,7 +96,7 @@ h1 {
     padding: 1% 11%;
 }
 #about .box{
-    padding: 0 1%;
+    padding: 0 3%;
 }
 
 /*Join*/
@@ -93,7 +105,30 @@ h1 {
     margin: 0 auto;
     padding: 1% 12%;
     background-color: blanchedalmond;
+    display: flex;
 }
+#join h5 {
+    padding: 0 3%;
+}
+form div{
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.123rem;
+    margin-bottom: 10x;
+    display: block;
+    padding: 1% 0;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
 
 /*Contact*/
 #contact h3{
