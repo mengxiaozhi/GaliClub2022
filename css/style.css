@@ -32,7 +32,7 @@ img {
     text-align: center;
     background-color: lightcoral;
     border-radius: 15px;
-    padding: 50px 12px;
+    padding: 52px 12px;
 }
 .button:hover{
     background-color: rgb(248, 107, 107);
@@ -130,17 +130,3 @@ img {
 .footer {
     text-align: center;
 }
-
-
-
-/*Forms*/
-.forms-title{
-    text-align: center;
-    font-size: 52px;
-}
-#forms {
-    background-image: url(../img/81390105_p0_master1200.jpg),linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0));
-    background-blend-mode: hard-light;
-    min-height: 100vh;
-}
-
