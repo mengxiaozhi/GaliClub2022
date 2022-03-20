@@ -12,6 +12,11 @@ body {
 a {
     text-decoration: none;
 }
+h1 {
+    color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 1% 0;
+}
 img {
     max-width: 100%;
 }
@@ -19,11 +24,6 @@ img {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-}
-h1 {
-    color: rgb(39, 39, 39);
-    text-align: center;
-    padding: 1% 0;
 }
 .button {
     font-family: 'ZCOOL KuaiLe', cursive;
@@ -37,6 +37,8 @@ h1 {
 .button:hover{
     background-color: rgb(248, 107, 107);
 }
+
+
 
 /*Header 页首*/
 .logo {
@@ -69,7 +71,14 @@ h1 {
     padding: 0 3%;
 }
 
+
+
 /*Home Content*/
+#home {
+    background-image: url(../img/81390105_p0_master1200.jpg),linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0));
+    background-blend-mode: hard-light;
+    min-height: 100vh;
+}
 .home-content {
     text-align: center;
     margin-top: 10%;
@@ -82,12 +91,7 @@ h1 {
     font-size: 52px;
 }
 
-/*Home*/
-#home {
-    background-image: url(../img/81390105_p0_master1200.jpg),linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0));
-    background-blend-mode: hard-light;
-    min-height: 100vh;
-}
+
 
 /*About*/
 #about .wrapper{
@@ -98,6 +102,8 @@ h1 {
 #about .box{
     padding: 0 3%;
 }
+
+
 
 /*Join*/
 #join .wrapper{
@@ -111,15 +117,21 @@ h1 {
     padding: 0 3%;
 }
 
+
+
 /*Contact*/
 #contact h3{
     padding: 0 12%;
 }
 
+
+
 /*Footer*/
 .footer {
     text-align: center;
 }
+
+
 
 /*Forms*/
 .forms-title{
