@@ -32,7 +32,8 @@ img {
     text-align: center;
     background-color: lightcoral;
     border-radius: 15px;
-    padding: 52px 12px;
+    padding: 30px 30px;
+    margin: 30px 30px 30px 30px;
 }
 .button:hover{
     background-color: rgb(248, 107, 107);
