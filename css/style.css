@@ -135,3 +135,10 @@ img {
 .footer {
     text-align: center;
 }
+
+/*Mobile*/
+@media (max-width: 600px) {
+    h1 {
+        color: #0bd
+    }
+}
