@@ -111,12 +111,12 @@ img {
 #about .wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 1% 11%;
+    padding-bottom: 23px;
 }
-#about .box{
-    padding: 0 3%;
+#about .box {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
-
 
 
 /*Join*/
@@ -143,6 +143,8 @@ img {
 /*Footer*/
 .footer {
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /*Mobile*/
