@@ -29,10 +29,6 @@ h1 {
     font-family: 'Varela Round', sans-serif;
     font-style: italic;
 }
-li {
-    font-family: 'Varela Round', sans-serif;
-    font-style: italic;
-}
 img {
     max-width: 100%;
 }
@@ -42,8 +38,7 @@ img {
     background-repeat: no-repeat;
 }
 .button {
-    font-family: 'ZCOOL KuaiLe', cursive;
-    font-size: 1.375rem;
+    font-size: 25px;
     color: aliceblue;
     text-align: center;
     background-color: lightcoral;
@@ -63,11 +58,11 @@ img {
 
 /*Header 页首*/
 header {
-    background-color: rgba(240, 248, 255, 0.778);
+    background-color: rgba(240, 248, 255, 0.867);
 }
 .logo {
-    width: 72px;
-    height: 72px;
+    width: 62px;
+    height: 62px;
     margin-top: 12px;
 }
 .main-nav {
@@ -77,13 +72,19 @@ header {
 }
 .main-nav li{
     margin-left: 36px;
+    font-style: italic;
+}
+.main-nav li:after{
+    content: "/";
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .main-nav a{
     color: rgb(39, 39, 39);
 }
 .main-nav a:hover{
     color: rgb(97, 97, 97);
-    font-size: 110%;
 }
 .page-header{
     display: flex;
@@ -94,7 +95,6 @@ header {
     margin: 0 auto;
     padding: 0 3%;
 }
-
 
 
 /*Home Content*/
@@ -120,27 +120,26 @@ header {
 /*About*/
 #about .wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 23px;
 }
 #about .box {
+    width: 300px;
     text-align: center;
     padding: 10px 10px 10px 10px;
 }
 
 
 /*Join*/
-#join .wrapper{
-    max-width: 11000px;
-    margin: 0 auto;
-    padding: 1% 15%;
+#join{
     background-color: #e1eec1;
+}
+#join .wrapper{
     display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
-#join h5 {
-    padding: 0 3%;
-}
-
 
 
 /*Contact*/
