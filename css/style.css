@@ -55,7 +55,6 @@ img {
 }
 
 
-
 /*Header 页首*/
 header {
     background-color: rgba(240, 248, 255, 0.867);
@@ -116,7 +115,6 @@ header {
 }
 
 
-
 /*About*/
 #about .wrapper{
     display: flex;
@@ -158,6 +156,7 @@ header {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 
 /*Mobile*/
 @media (max-width: 600px) {
